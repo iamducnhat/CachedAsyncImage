@@ -29,7 +29,7 @@ struct CacheMetadata: Codable, Sendable {
 }
 
 /// Container for cached image data and metadata.
-struct CachedImageData: Sendable {
+public struct CachedImageData: Sendable {
     let imageData: Data
     let metadata: CacheMetadata
 }
