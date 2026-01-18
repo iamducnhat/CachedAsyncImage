@@ -59,8 +59,6 @@ extension CachedAsyncImage {
                 image
             case .failure:
                 Image(systemName: "photo")
-            @unknown default:
-                Image(systemName: "photo")
             }
         }
     }
